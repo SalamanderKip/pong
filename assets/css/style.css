@@ -1,29 +1,27 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin:  0;
+    padding: 0;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  background-color: grey;
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
 }
 
 canvas {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+    position: absolute;
+    left:     50%;
+    top:      50%;
+    transform: translate(-50%, -50%);
 }
 
 canvas#pong {
-  z-index: 2;
+    z-index: 2;
+    
 }
 
 canvas#hud {
-  z-index: 1;
-  background: green;
+    z-index: 1;
+    background: green;
 }
-/*# sourceMappingURL=style.css.map */
